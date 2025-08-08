@@ -3,6 +3,7 @@ name: Sample Jenkins Job
 on:
   pull_request:
     types: [opened, reopened, synchronize]
+  workflow_dispatch:
 
 jobs:
   trigger-jenkins:
